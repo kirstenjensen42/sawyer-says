@@ -5,7 +5,7 @@
   "description": "personalize new tab windows with your own pictures and quotes",
   "version": "1.0",
 
-  "chrome_url_overrides": { "newtab": "new_tab.html" }
+  "chrome_url_overrides": { "newtab": "new_tab.html" },
 
   "permissions": ["storage"],
 
