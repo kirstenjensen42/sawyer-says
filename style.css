@@ -1,0 +1,19 @@
+p {
+	color:purple;
+}
+
+.quote {
+	position: absolute;
+	font-size: 5em;
+		left: 20%;
+		top: 50%;
+}
+
+.image {
+	z-index: -1;
+	position: relative;
+}
+
+.image img {
+	size: 100%;
+}
