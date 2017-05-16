@@ -13,13 +13,22 @@ body, html {
 	width: 100%;
 }
 
-.quote {
+.quotes {
 	color: purple;
 	font-family: cursive, sans-serif;
+	font-size: 3em;
+	text-shadow: 0px 0px 10px rgba(0,0,0,0.8);
 	position: absolute;
-	font-size: 5em;
-		left: 20%;
-		top: 50%;
+		top: 70%;
+		width: 100%;
+	text-align: center;
+}
+
+.quote {
+	width: 66%;
+	margin: 0 auto 25px;
+	font-weight: 100;
+	border-radius: 10px;
 }
 
 #search-box-wrapper {
@@ -32,6 +41,25 @@ body, html {
 	border-bottom: 3px solid rgba(255, 255, 255, 0.66);
 }
 
+#search-box {
+	width:100%;
+	margin:0;
+	height: 45px;
+	text-align: center;
+}
+
 #search-input {
 	width: 100%;
+	background: transparent;
+	box-shadow: none;
+	height: 45px !important;
+	line-height: 45px !important;
+	border: none;
+	padding: 10px;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+}
+
+#search-input:focus {
+	background-color: white;
 }
