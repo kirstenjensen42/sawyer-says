@@ -1,19 +1,37 @@
-p {
-	color:purple;
+body {
+	overflow: hidden;
+	margin: 0;
+	background-image: none;
+	background: transparent;
+	background-repeat: no-repeat;
+	background-size: cover !important;
+	background-position: center center !important;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
 }
 
 .quote {
+	color: purple;
+	font-family: cursive, sans-serif;
 	position: absolute;
 	font-size: 5em;
 		left: 20%;
 		top: 50%;
 }
 
-.image {
-	z-index: -1;
-	position: relative;
+#search-box-wrapper {
+	position: absolute;
+	margin: auto;
+	top: 5%;
+	right: 0px;
+	left: 0px;
+	width: 30%;
+	border-bottom: 3px solid rgba(255, 255, 255, 0.66);
 }
 
-.image img {
-	size: 100%;
+#search-input {
+	width: 100%;
 }
