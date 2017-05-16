@@ -1,0 +1,11 @@
+TO GET CHILDREN OF FILES (IMAGES ONLY)
+https://developers.google.com/drive/v2/reference/children/list
+
+folderId: string after id=
+
+q: mimeType contains 'image/'
+
+fields: items(id)
+
+TO GET IMAGE
+https://drive.google.com/uc?id=replace_with_id
