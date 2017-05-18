@@ -8,19 +8,21 @@
 
 <body style="background-image: url(kisses.jpg);">
 
-	<div id="search-box-wrapper">
+	<div id="search-box-container">
 
 		<div id="search-box">
 
-			<input id="search-input" dir="auto" type="search" autofocus="autofocus" tabindex="1" placeholder="Search Google" class="custom">
+			<form method="get" action="https://www.google.com/search">
+				<input type="text" name="q" placeholder="Google it" value="" id="search-input">
+			</form>
 
 		</div>
 
 	</div>
 
-	<div class="quotes">
+	<div class="quote-container">
 
-			<div id="quote" class="quote">
+			<div class="quote">
 
 				<script type="text/javascript" src="app.js"></script>
 

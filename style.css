@@ -13,25 +13,9 @@ body, html {
 	width: 100%;
 }
 
-.quotes {
-	color: purple;
-	font-family: cursive, sans-serif;
-	font-size: 3em;
-	text-shadow: 0px 0px 10px rgba(0,0,0,0.8);
-	position: absolute;
-		top: 70%;
-		width: 100%;
-	text-align: center;
-}
+/* --- search box --- */
 
-.quote {
-	width: 66%;
-	margin: 0 auto 25px;
-	font-weight: 100;
-	border-radius: 10px;
-}
-
-#search-box-wrapper {
+#search-box-container {
 	position: absolute;
 	margin: auto;
 	top: 5%;
@@ -61,5 +45,25 @@ body, html {
 }
 
 #search-input:focus {
-	background-color: white;
+	background-color: rgba( 255, 255, 255, 0.8);
+	
+	box-shadow: 7px 7px 5px ghostwhite;
+}
+
+/* --- quote container --- */
+
+.quote-container {
+	color: #aaaaaa;
+	font-family: cursive, sans-serif;
+	font-size: 3em;
+	text-shadow: 0px 0px 10px rgba(0,0,0,1);
+	position: absolute;
+		bottom: 5%;
+		width: 100%;
+	text-align: center;
+}
+
+.quote {
+	width: 66%;
+	margin: 0 auto 25px;
 }
