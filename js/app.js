@@ -1,3 +1,17 @@
+var app = angular.module( 'webPort', []);
+
+app.controller("MainCtrl", [
+
+	'$scope', 
+
+	function($scope){
+
+		$scope.printQuote = sawyerSays[ getQuote ];
+		
+
+}]);
+
+
 var sawyerSays = [
 
 		"Rileys are cute.", 
@@ -6,9 +20,6 @@ var sawyerSays = [
 		"Sawyers are cute and tasty",
 		"mom! dad's hurting your fur baby",
 
-	];
+	]; 
 
-
-	var findQuote = Math.floor( Math.random() * sawyerSays.length );
-
-document.write ( sawyerSays[ findQuote ] );
+var getQuote = Math.floor( Math.random() * (sawyerSays.length) );
